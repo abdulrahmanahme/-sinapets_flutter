@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sinapets_flutter/core/widgets/flow_wrap_screen.dart';
+import 'package:sinapets_flutter/core/widgets/align_screen.dart';
+import 'package:sinapets_flutter/core/widgets/show_bottom_sheet_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:const FlowWrapScreen(),
+      home:const ShowBottomSheetScreen(),
     );
   }
 }
