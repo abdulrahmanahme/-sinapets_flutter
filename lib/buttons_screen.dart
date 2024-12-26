@@ -9,7 +9,7 @@ import 'core/app_color.dart';
 
 class ButtonExamplesScreen extends StatefulWidget {
   @override
-  _ButtonExamplesScreenState createState() => _ButtonExamplesScreenState();
+  State<ButtonExamplesScreen> createState() => _ButtonExamplesScreenState();
 }
 
 class _ButtonExamplesScreenState extends State<ButtonExamplesScreen> {
@@ -20,7 +20,7 @@ class _ButtonExamplesScreenState extends State<ButtonExamplesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:const Text('Button Examples'),
+        title: const Text('Button Examples'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

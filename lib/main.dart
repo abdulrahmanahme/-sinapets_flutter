@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sinapets_flutter/buttons_screen.dart';
+import 'package:sinapets_flutter/core/widgets/flow_wrap_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:ButtonExamplesScreen(),
+      home:const FlowWrapScreen(),
     );
   }
 }
